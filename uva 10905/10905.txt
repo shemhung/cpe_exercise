@@ -1,0 +1,3 @@
+此題我本來用next_permutation暴力解，但是TLE，後來想到用vector全部push_back進去
+，直接sort的時候，但遇到數量2，90、9答案會變成909，
+所以sort裡面自定義函數來比較，才解決這題
