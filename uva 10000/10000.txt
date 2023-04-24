@@ -1,0 +1,1 @@
+此題使用bfs算法，核心算法是 if(d[start]+1>d[i])->d[i]=d[start]+1因為邊長都等於1，為了求最大長度，一開始從start衍生的邊都push 進queue裡面，update距離後，再從衍生的頂點找衍生邊，重複動作以上，且要不在queue裡才push進去。
