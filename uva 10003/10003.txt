@@ -1,0 +1,3 @@
+此題用區間dp解，num個切割點，有num+1個range ，在起點+range範圍內，
+使用核心算式min(dp[i][j],dp[i][k]+dp[k][j]+cut[j]-cut[i])，比較是否從i到j比較小，
+，還是0到j，j到k比較小，從而找出最小的切開木頭的成本
